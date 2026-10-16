@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>eklo</title>
+    <style>
+      html, body {
+        margin: 0;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: -apple-system, system-ui, sans-serif;
+        background: #f7f5f2;
+        color: #1f2937;
+        text-align: center;
+      }
+      p { padding: 0 2rem; }
+    </style>
+  </head>
+  <body>
+    <!-- Only ever shown if the device has no network connection at all --
+         capacitor.config.ts's server.url loads the real, live site
+         (ekloapp.se) every normal launch. -->
+    <p>Ingen internetanslutning. Anslut och försök igen.</p>
+  </body>
+</html>
